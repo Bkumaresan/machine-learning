@@ -13290,7 +13290,13 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: <em>80.47</em></p>
+<p><strong>Answer</strong>: 
+First i simply used predictions#1, predictions#2 and it was about 79.35%. Then i started working on 'Male' survivors, using vs.survivalstatus graphic view and hints. Picked first hint "Pclass" and tried all combinations. And used the other variables in the hint to perform multiple combinations. For some reason i could not get to 80%, then i started to look at the Female survivors to see if that prediction:1 (all female survived) can it be more precise and looked at the combination of Age and Pclass. I just used the hints. Infact i did not realize i have the entire dataset. Like i told my mentor i am still in the initial phases of learning python and getting accustomed to the project models/data/visuals etc.</p>
+<p>I looked at all the features in the sample data set listed in the top of the project.</p>
+<p>Age and Pclass were more informative.</p>
+<p>Female was easy one, Male i had to use first Pclass to find out which one has more survival rate. then tried the Parch and SibSp to see if i can bump the survival rate. No other fields did cross my mind to pick, since i was blindsided with the hints. After achieving 80.47 i tried to combine the similar patterns for male different age groups but did not see that help the survival rate.</p>
+<p>prediction accuracy : 80.47%
+*</p>
 
 </div>
 </div>
@@ -13310,7 +13316,10 @@ Make sure to keep track of the various features and conditions you tried before 
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p><strong>Answer</strong>: <em> Infant Baby behaviour monitoring.  Tyring to predict the baby fussiness factor or when the babies are actually fussy by studying their data.</em></p>
+<p><strong>Answer</strong>: 
+Infant Baby behaviour monitoring.  Tyring to predict the baby fussiness factor or when the babies are actually fussy by studying their data.</p>
+<p>outcome variable : Fussiness factor</p>
+<p>Two features: Baby food habits, emotional behaviour (hours of play, sleep, social engineering) may be all of them we have to look at.</p>
 
 </div>
 </div>
